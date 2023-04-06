@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body {
-    background-color: gray;
+    /* background-color: gray; */
 }
 .headermobile {
     width: 100%;
@@ -157,7 +157,7 @@ img {
 
 /* footer mobile */
 
-.footermobile {
+.footer {
     background-color: #fff;
     width: 100%;
     padding: 25px 18px;
@@ -204,22 +204,106 @@ img {
     font-size: 1rem;
 }
 @media screen and (min-width: 600px) {
-.headermobile {
+/* .headermobile {
     display: none;
-}
+} */
 .cardbox {
     width: 50%;
     padding: 2px;
 }
 .description {
+    padding: 110px 90px 64px 64px;
     width: 100%;
+    font-size: 3rem !important;
+}
+.topdis {
+    font-size: 1.5rem;
+    width: 80%;
+    font-weight: 200;
 }
 .main {
     flex-flow: row;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    width: 80%;
 }
+
+/*  */
+.container {
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+    padding: 0 30px;
+}
+.headermobile {
+    justify-content: start;
+    padding: 50px 0;
+}
+.head {
+    padding: 0 10px;
+}
+.fa-bars {
+    display: none !important;
+}
+.navbar {
+    display: flex;
+    flex-flow: column;
+}
+.navbar-mobile {
+    visibility: visible;
+    background-color: #fff;
+    padding-top: 0px;
+    position: unset;
+    width: 100%;
+    top: unset;
+    left: unset;
+}
+.navelem{
+    text-align: unset;
+    font-size: 1.3rem;
+}
+.navsocial {
+    width: 100%;
+    border-top: 0px solid #fff;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    z-index: 10;
+    padding: 0px;
+    position: unset;
+    bottom: unset;
+    left: unset;
+    background-color: #fff;
+}
+.spacearea {
+    display: none;
+}
+.socialnav {
+    width: 35px;
+    height: 35px;
+    margin-right: 20px;
+    font-size: 0.9rem !important;
+}
+.closenavbar-mobile {
+display: none;
+}
+.xcloser {
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+}
+.footer {
+    padding: 60px 0;
+}
+.footersocial {
+    padding-bottom: 30px;
+}
+.socialbox {
+    width: 35px;
+    height: 35px;
+}
+
 }
 @media screen and (min-width: 900px) {
     
