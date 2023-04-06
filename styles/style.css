@@ -142,7 +142,6 @@ navbar menue styles (mobile)
     justify-content: center;
     align-items: center;
     transition: 1s;
-    /* visibility: hidden; */
 }
 .hovercard:hover {
     opacity: 0.8;
@@ -154,4 +153,53 @@ navbar menue styles (mobile)
 }
 img {
     width: 100%;
+}
+
+/* footer mobile */
+
+.footermobile {
+    background-color: #fff;
+    width: 100%;
+    padding: 25px 18px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+.socials {
+    display: flex;
+    flex-flow: row;
+}
+.footersocial {
+    padding-bottom: 20px;
+}
+.footertext {
+    color: #6F8498;
+    font-family: 'Lucida Sans';
+    font-size: 1rem;
+}
+
+/* discription style */
+
+.description {
+    background-color: #F7F8F9;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 38px 48px;
+    margin-top: 0 !important;
+}
+.topdis {
+    color: #012B55;
+    width: 80%;
+    font-size: 1rem;
+    font-family: 'Carrois Gothic', sans-serif;
+    font-weight: 500;
+}
+.butdis {
+    color: #597188;
+    margin-top: 13px;
+    font-size: 1rem;
 }
