@@ -203,3 +203,24 @@ img {
     margin-top: 13px;
     font-size: 1rem;
 }
+@media screen and (min-width: 600px) {
+.headermobile {
+    display: none;
+}
+.cardbox {
+    width: 50%;
+    padding: 2px;
+}
+.description {
+    width: 100%;
+}
+.main {
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+}
+@media screen and (min-width: 900px) {
+    
+}
