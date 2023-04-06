@@ -3,3 +3,105 @@
     margin: 0;
     box-sizing: border-box;
 }
+body {
+    background-color: gray;
+}
+.headermobile {
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.8rem;
+}
+.fa-bars {
+    font-size: 1.5rem !important;
+    cursor: pointer;
+}
+.projname {
+    font-size: 1.5rem;
+    color: #012B55;;
+    font-family: 'Carrois Gothic', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+/*--start-- 
+navbar menue styles (mobile)
+*/
+
+.navbar-mobile {
+    visibility: hidden;
+    background-color: #fff;
+    padding-top: 50px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100vh;
+}
+.worknav {
+    color: #012B55;
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.navelem{
+    padding-bottom: 30px;
+    width: 100%;
+    text-align: center;
+}
+.linknav {
+    text-decoration: none;
+    color: #223b55;
+    font-size: 1.3rem;
+}
+.navsocial {
+    width: 100%;
+    border-top: 1px solid #dfd2d2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    padding: 19px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+}
+.socialbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E9EE;
+    border-radius: 50%;
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+    color: #333;
+    margin-right: 10px;
+}
+.socialnav {
+    width: 55px;
+    height: 55px;
+    margin-right: 20px;
+    font-size: 1.2rem !important;
+}
+.spacearea {
+    height: 80px;
+}
+.closenavbar-mobile {
+    opacity: 0.9;
+    z-index: 10;
+    position: fixed;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    padding: 20px;
+}
+.xcloser {
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+}
