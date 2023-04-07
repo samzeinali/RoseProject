@@ -82,6 +82,9 @@ navbar menue styles (mobile)
     color: #333;
     margin-right: 10px;
 }
+.socialbox:hover {
+    background-color: #d3d2d2;
+}
 .socialnav {
     width: 55px;
     height: 55px;
@@ -216,7 +219,7 @@ img {
 /* go to top button */
 
 .buttom-go-top {
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     background-color: rgba(1, 43, 85, 0.1);
@@ -227,6 +230,7 @@ img {
     width: 50px;
     height: 50px;
     z-index: 4;
+    border-radius: 10px;
 }
 .arrowup {
     width: 35px;
@@ -253,7 +257,7 @@ img {
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        width: 80%;
+        width: 100%;
     }
     .container {
         display: flex;
@@ -266,7 +270,8 @@ img {
         padding: 50px 0;
     }
     .head {
-        padding: 0 10px;
+        padding: 0 20px;
+        width: 30%;
     }
     .fa-bars {
         display: none !important;
@@ -326,6 +331,15 @@ img {
     .socialbox {
         width: 35px;
         height: 35px;
+    }
+    .buttom-go-top {
+        display: flex;
+    }
+    .linknav {
+        font-size: 1rem !important;
+    }
+    .navelem {
+        font-size: 1rem !important;
     }
 
 }
