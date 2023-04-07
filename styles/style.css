@@ -31,8 +31,12 @@ body {
 navbar menue styles (mobile)
 */
 
-.navbar-mobile {
+.close {
+    display: none;
     visibility: hidden;
+}
+.navbar-mobile {
+    display: none;
     background-color: #fff;
     padding-top: 50px;
     position: absolute;
@@ -40,12 +44,14 @@ navbar menue styles (mobile)
     right: 0;
     width: 100%;
     height: 100vh;
+    transition: 0.5s;
 }
 .worknav {
     color: #012B55;
     font-size: 1.5rem;
     font-weight: 500;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 30px;
 }
 .navelem{
     padding-bottom: 30px;
@@ -281,7 +287,7 @@ img {
         flex-flow: column;
     }
     .navbar-mobile {
-        visibility: visible;
+        display: unset !important;
         background-color: #fff;
         padding-top: 0px;
         position: unset;
@@ -292,6 +298,7 @@ img {
     .navelem{
         text-align: unset;
         font-size: 1.3rem;
+        padding-bottom: 10px;
     }
     .navsocial {
         width: 100%;
@@ -340,6 +347,9 @@ img {
     }
     .navelem {
         font-size: 1rem !important;
+    }
+    .worknav {
+        padding-top: unset;
     }
 
 }
