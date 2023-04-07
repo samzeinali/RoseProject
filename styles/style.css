@@ -203,6 +203,21 @@ img {
     margin-top: 13px;
     font-size: 1rem;
 }
+
+/* go to top button */
+
+.buttom-go-top {
+    background-color: #333;
+    opacity: 0.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    cursor: pointer;
+}
+
 @media screen and (min-width: 600px) {
 /* .headermobile {
     display: none;
